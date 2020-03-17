@@ -8,7 +8,6 @@
 * Copyright 2019 Creative Tim (http://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit-react/blob/master/LICENSE.md)
 
-* Designed by www.invisionapp.com Coded by www.creative-tim.com
 
 =========================================================
 

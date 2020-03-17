@@ -7,7 +7,6 @@ import {
   DropdownMenu,
   DropdownItem,
   UncontrolledDropdown,
-  NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
@@ -88,16 +87,6 @@ function ExamplesNavbar() {
             </DropdownMenu>
           </UncontrolledDropdown>
           <div className="navbar-translate">
-            <NavbarBrand
-              href="https://demos.creative-tim.com/now-ui-kit-react/index?ref=nukr-examples-navbar"
-              target="_blank"
-              id="navbar-brand"
-            >
-              Now Ui Kit
-            </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Designed by Invision. Coded by Creative Tim
-            </UncontrolledTooltip>
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {

@@ -10,9 +10,9 @@ import IndexHeader from "components/Headers/IndexHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
 // sections for this page
-import Images from "./index-sections/Images.js";
-import BasicElements from "./index-sections/BasicElements.js";
-import Navbars from "./index-sections/Navbars.js";
+//import Images from "./index-sections/Images.js";
+//import BasicElements from "./index-sections/BasicElements.js";
+//import Navbars from "./index-sections/Navbars.js";
 import Tabs from "./index-sections/Tabs.js";
 import Pagination from "./index-sections/Pagination.js";
 import Notifications from "./index-sections/Notifications.js";
@@ -24,6 +24,7 @@ import CompleteExamples from "./index-sections/CompleteExamples.js";
 import SignUp from "./index-sections/SignUp.js";
 import Examples from "./index-sections/Examples.js";
 import Download from "./index-sections/Download.js";
+import Map from "./index-sections/Map.js";
 
 function Index() {
   React.useEffect(() => {
@@ -43,9 +44,11 @@ function Index() {
       <div className="wrapper">
         <IndexHeader />
         <div className="main">
-          <Images />
-          <BasicElements />
-          <Navbars />
+          {/*
+            <Images />
+            <BasicElements />
+            <Navbars />
+          */}
           <Tabs />
           <Pagination />
           <Notifications />
@@ -56,6 +59,7 @@ function Index() {
           <CompleteExamples />
           <SignUp />
           <Examples />
+          <Map/>
           <Download />
         </div>
         <DarkFooter />
